@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+            margin: 0px;
+        }
+        header{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: aqua;
+            padding: 3px;
+            box-shadow: 1px 1px 1px black;
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+
+        }
+        main{
+            background-color: whitesmoke;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow:4px 4px 9px 0px black ;
+        }
+        article{
+            background-color: gray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightblue;
+        }
+        footer{
+            background-color: black;
+            color: whitesmoke;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+
+        }
+           </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esportes politica Tecnologia</p>
+
+
+        </section>
+        <section id="noticias">
+            <article>
+            <h2>noticias sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, ipsum odio, magni atque labore sapiente quaerat eos recusandae soluta qui nesciunt itaque quibusdam iure repellendus ut inventore nam? Eaque, blanditiis!</p>
+            <aside><p>Escrito por tanana</p></aside>
+            </article>
+
+        </section>
+    </main>
+    <footer><p>Desenvolvido por</p></footer>
+</body>
+</html>
