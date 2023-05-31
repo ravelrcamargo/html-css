@@ -4,20 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo</title>
     <style>
         body{
+            /* melhor método faz caber independente do tamanho da tela, corta a imagem pra caber*/
+            /*background-size: contain; ele exibe 100% na imagem na tela mas com barras pretas não corta a imagem*/
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
-            background-size: cover;/* melhor método faz caber independente do tamanho da tela, corta a imagem pra caber*/
-            /*background-size: contain; ele exibe 100% na imagem na tela mas com barras pretas não corta a imagem*/
+            background-size: cover;
+            background-attachment: fixed;*/
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat
+             fixed;
+             background-size: cover;
+
+            
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -34,7 +41,12 @@
             similique delectus laboriosam molestiae impedit magni eaque, laudantium 
             reprehenderit maiores? Mollitia, eveniet quisquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
             Eveniet odit quam nostrum sequi deserunt. Rerum consectetur, 
-            porro blanditiis quae sint eveniet fugiat, illum quo eum ipsa soluta necessitatibus veritatis beatae?</p>
+            porro blanditiis quae sint eveniet fugiat, illum quo eum ipsa soluta necessitatibus veritatis beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam sed velit voluptatibus dolorem, possimus dignissimos, autem dolorum iusto voluptate, veniam accusantium ea reprehenderit non corrupti eum asperiores inventore quis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in reprehenderit eaque ab culpa natus quidem, assumenda beatae nemo odit est mollitia, delectus esse provident laudantium harum commodi distinctio pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et odit obcaecati. Excepturi ea nam quibusdam assumenda corrupti quae nihil? Excepturi, sint. Ducimus nisi, officiis deserunt minus illo dolor quibusdam.Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Reiciendis obcaecati, nam sit nemo porro quae distinctio nulla 
+            similique delectus laboriosam molestiae impedit magni eaque, laudantium 
+            reprehenderit maiores? Mollitia, eveniet quisquam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eveniet odit quam nostrum sequi deserunt. Rerum consectetur, 
+            porro blanditiis quae sint eveniet fugiat, illum quo eum ipsa soluta necessitatibus veritatis beatae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat magnam sed velit voluptatibus dolorem, possimus dignissimos, autem dolorum iusto voluptate, veniam accusantium ea reprehenderit non corrupti eum asperiores inventore quis!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo in reprehenderit eaque ab culpa natus quidem, assumenda beatae nemo odit est mollitia, delectus esse provident laudantium harum commodi distinctio pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et odit obcaecati. Excepturi ea nam quibusdam assumenda corrupti quae nihil? Excepturi, sint. Ducimus nisi, officiis deserunt minus illo dolor quibusdam</p>
     </main>
     
 </body>
