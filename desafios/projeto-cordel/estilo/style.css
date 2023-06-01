@@ -13,8 +13,9 @@
     --fonte-titulo:'Passion One';
     --fonte-texto:'Sriracha';
 }
-body{
-    background-color: white; 
+html, body{
+    background-color: darkgray; 
+    min-height: 100vh;
     min-width: 400px;
     
 }
@@ -23,9 +24,10 @@ header{
     height: 269px;
     background-color: black;
     color: white;
+    text-align: center;
 }
 header > h1{
-    text-align: center;
+    
     font-family: var(--fonte-titulo);
     font-weight: bold;
     font-size: 136px;
@@ -43,6 +45,9 @@ a{
     text-decoration: none;
     color: white;
 }
+a:hover{
+    text-decoration: underline;
+}
 main{
     font-family: var(--fonte-texto);
     font-size: 47px;
@@ -54,11 +59,17 @@ section{
     font-family: var(--fonte-texto);
     font-size: 47px;
     text-align: left;
-    padding-bottom: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+section.normal{
+    background-color: white;
 }
 section > p{
     padding-left: 30px;
-    padding-top: 50px;
+    
 }
 .fundo{
     background-color: rgba(0, 0, 0, 0.5);
