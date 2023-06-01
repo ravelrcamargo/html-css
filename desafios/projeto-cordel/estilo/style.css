@@ -47,7 +47,7 @@ section{
     font-family: var(--fonte-texto);
     font-size: 47px;
     text-align: left;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
 }
 section > p{
     padding-left: 30px;
@@ -61,11 +61,15 @@ section > p{
     
 }
 .imagem1{
+    border:1px solid black;
+    box-shadow: 1px 1px 1px black;
     color: white;
     background: black url('../imagens/background001.jpg') center center no-repeat fixed;
 }
 
 .imagem2{
+    border:1px solid black;
+    box-shadow: 1px 1px 1px black;
     color: white;
     background: black url('../imagens/background002.jpg') center center no-repeat fixed;
 }
