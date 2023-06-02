@@ -10,8 +10,8 @@
 }
 
 :root{
-    --fonte-titulo:'Passion One';
-    --fonte-texto:'Sriracha';
+    --fonte-titulo:'Passion One', 'cursive';
+    --fonte-texto:'Sriracha', 'cursive';
 }
 html, body{
     background-color: darkgray; 
@@ -30,7 +30,7 @@ header > h1{
     
     font-family: var(--fonte-titulo);
     font-weight: bold;
-    font-size: 136px;
+    font-size: 10vw;
     padding-top: 50px;
    
 }
@@ -57,8 +57,8 @@ main{
 
 section{ 
     font-family: var(--fonte-texto);
-    font-size: 47px;
-    text-align: left;
+    font-size: 3.5vw;
+    padding-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -68,19 +68,20 @@ section.normal{
     background-color: white;
 }
 section > p{
-    padding-left: 30px;
+    
+    padding-bottom: 2em;
     
 }
 .fundo{
     background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
-    margin: 30px 30px 0% 30px;  
     vertical-align: middle; 
+    text-shadow: 1px 1px 1px black;
     
 }
 .imagem1{
     border:1px solid black;
-    box-shadow: 1px 1px 1px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.575);
     color: white;
     background: black url('../imagens/background001.jpg') center center no-repeat fixed;
 }
